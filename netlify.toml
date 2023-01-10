@@ -1,0 +1,5 @@
+[build]
+    NETLIFY_USE_YARN="true"
+    NODE_ENV="production"
+    command="yarn build"
+    environment = { NODE_VERSION = "v19.3.0" }
